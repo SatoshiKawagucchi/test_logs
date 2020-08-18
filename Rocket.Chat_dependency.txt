@@ -1,0 +1,141 @@
+結果。。。ダウンロードしたものが消えずに残っている、良さげ
+
+---
+
+# ls -latR
+.:
+total 12
+drwxrwxrwt 1 root root 4096 Aug 15 02:36 ..
+drwxr-xr-x 8 root root 4096 Aug 15 02:36 yum
+drwxr-xr-x 3 root root 4096 Aug 15 02:27 .
+
+./yum:
+total 32
+drwxr-xr-x 2 root root 4096 Aug 15 02:36 nodejs
+drwxr-xr-x 8 root root 4096 Aug 15 02:36 .
+drwxr-xr-x 2 root root 4096 Aug 15 02:36 mongodb-org
+drwxr-xr-x 2 root root 4096 Aug 15 02:34 make
+drwxr-xr-x 2 root root 4096 Aug 15 02:34 gcc-c++
+drwxr-xr-x 2 root root 4096 Aug 15 02:32 GraphicsMagick
+drwxr-xr-x 2 root root 4096 Aug 15 02:28 epel-release
+drwxr-xr-x 3 root root 4096 Aug 15 02:27 ..
+
+./yum/nodejs:
+total 20488
+-rw-r--r-- 1 root root 9281795 Aug 15 02:37 nodejs-10.21.0-3.module_el8.2.0+391+8da3adc6.x86_64.rpm
+-rw-r--r-- 1 root root 7649211 Aug 15 02:37 nodejs-full-i18n-10.21.0-3.module_el8.2.0+391+8da3adc6.x86_64.rpm
+-rw-r--r-- 1 root root 4018443 Aug 15 02:36 npm-6.14.4-1.10.21.0.3.module_el8.2.0+391+8da3adc6.x86_64.rpm
+drwxr-xr-x 2 root root    4096 Aug 15 02:36 .
+drwxr-xr-x 8 root root    4096 Aug 15 02:36 ..
+
+./yum/mongodb-org:
+total 137252
+drwxr-xr-x 8 root root     4096 Aug 15 02:36 ..
+-rw-r--r-- 1 root root 58053652 Aug 15 02:36 mongodb-database-tools-100.1.1.x86_64.rpm
+-rw-r--r-- 1 root root 19079554 Aug 15 02:36 mongodb-org-shell-4.4.0-1.el8.x86_64.rpm
+-rw-r--r-- 1 root root    10408 Aug 15 02:36 mongodb-org-tools-4.4.0-1.el8.x86_64.rpm
+drwxr-xr-x 2 root root     4096 Aug 15 02:36 .
+-rw-r--r-- 1 root root 29081971 Aug 15 02:36 mongodb-org-server-4.4.0-1.el8.x86_64.rpm
+-rw-r--r-- 1 root root 22754662 Aug 15 02:36 mongodb-org-mongos-4.4.0-1.el8.x86_64.rpm
+-rw-r--r-- 1 root root    20057 Aug 15 02:35 mongodb-org-database-tools-extra-4.4.0-1.el8.x86_64.rpm
+-rw-r--r-- 1 root root    10528 Aug 15 02:35 mongodb-org-4.4.0-1.el8.x86_64.rpm
+-rw-r--r-- 1 root root   713708 Aug 15 02:35 openssl-1.1.1c-15.el8.x86_64.rpm
+-rw-r--r-- 1 root root  6247914 Aug 15 02:35 python2-libs-2.7.17-1.module_el8.2.0+381+9a5b3c3b.x86_64.rpm
+-rw-r--r-- 1 root root    98408 Aug 15 02:35 cyrus-sasl-2.1.27-1.el8.x86_64.rpm
+-rw-r--r-- 1 root root    48100 Aug 15 02:35 cyrus-sasl-plain-2.1.27-1.el8.x86_64.rpm
+-rw-r--r-- 1 root root    50196 Aug 15 02:35 cyrus-sasl-gssapi-2.1.27-1.el8.x86_64.rpm
+-rw-r--r-- 1 root root   295714 Aug 15 02:35 python2-setuptools-wheel-39.0.1-11.module_el8.2.0+381+9a5b3c3b.noarch.rpm
+-rw-r--r-- 1 root root   658754 Aug 15 02:35 python2-setuptools-39.0.1-11.module_el8.2.0+381+9a5b3c3b.noarch.rpm
+-rw-r--r-- 1 root root  1239886 Aug 15 02:35 python2-pip-wheel-9.0.3-16.module_el8.2.0+381+9a5b3c3b.noarch.rpm
+-rw-r--r-- 1 root root  1953110 Aug 15 02:35 python2-pip-9.0.3-16.module_el8.2.0+381+9a5b3c3b.noarch.rpm
+-rw-r--r-- 1 root root   111010 Aug 15 02:35 python2-2.7.17-1.module_el8.2.0+381+9a5b3c3b.x86_64.rpm
+
+./yum/make:
+total 512
+drwxr-xr-x 8 root root   4096 Aug 15 02:36 ..
+-rw-r--r-- 1 root root 509448 Aug 15 02:34 make-4.2.1-10.el8.x86_64.rpm
+drwxr-xr-x 2 root root   4096 Aug 15 02:34 .
+
+./yum/gcc-c++:
+total 56196
+drwxr-xr-x 8 root root     4096 Aug 15 02:36 ..
+-rw-r--r-- 1 root root 24566980 Aug 15 02:34 gcc-8.3.1-5.el8.0.2.x86_64.rpm
+-rw-r--r-- 1 root root    15588 Aug 15 02:34 pkgconf-pkg-config-1.4.2-1.el8.x86_64.rpm
+-rw-r--r-- 1 root root    17444 Aug 15 02:34 pkgconf-m4-1.4.2-1.el8.noarch.rpm
+drwxr-xr-x 2 root root     4096 Aug 15 02:34 .
+-rw-r--r-- 1 root root  4168256 Aug 15 02:34 kernel-headers-4.18.0-193.14.2.el8_2.x86_64.rpm
+-rw-r--r-- 1 root root    38948 Aug 15 02:34 pkgconf-1.4.2-1.el8.x86_64.rpm
+-rw-r--r-- 1 root root    25600 Aug 15 02:34 libxcrypt-devel-4.1.1-4.el8.x86_64.rpm
+-rw-r--r-- 1 root root    35612 Aug 15 02:34 libpkgconf-1.4.2-1.el8.x86_64.rpm
+-rw-r--r-- 1 root root   208380 Aug 15 02:34 libgomp-8.3.1-5.el8.0.2.x86_64.rpm
+-rw-r--r-- 1 root root  1064136 Aug 15 02:34 glibc-devel-2.28-101.el8.x86_64.rpm
+-rw-r--r-- 1 root root   483912 Aug 15 02:34 glibc-headers-2.28-101.el8.x86_64.rpm
+-rw-r--r-- 1 root root  2145280 Aug 15 02:34 libstdc++-devel-8.3.1-5.el8.0.2.x86_64.rpm
+-rw-r--r-- 1 root root    60132 Aug 15 02:34 libmpc-1.0.2-9.el8.x86_64.rpm
+-rw-r--r-- 1 root root   861180 Aug 15 02:34 isl-0.16.1-6.el8.x86_64.rpm
+-rw-r--r-- 1 root root 12836380 Aug 15 02:34 gcc-c++-8.3.1-5.el8.0.2.x86_64.rpm
+-rw-r--r-- 1 root root 10920404 Aug 15 02:34 cpp-8.3.1-5.el8.0.2.x86_64.rpm
+
+./yum/GraphicsMagick:
+total 13084
+drwxr-xr-x 8 root root    4096 Aug 15 02:36 ..
+-rw-r--r-- 1 root root 1607764 Aug 15 02:32 GraphicsMagick-1.3.34-1.el8.x86_64.rpm
+-rw-r--r-- 1 root root   15588 Aug 15 02:32 pkgconf-pkg-config-1.4.2-1.el8.x86_64.rpm
+-rw-r--r-- 1 root root   17444 Aug 15 02:32 pkgconf-m4-1.4.2-1.el8.noarch.rpm
+drwxr-xr-x 2 root root    4096 Aug 15 02:32 .
+-rw-r--r-- 1 root root   38948 Aug 15 02:32 pkgconf-1.4.2-1.el8.x86_64.rpm
+-rw-r--r-- 1 root root  128976 Aug 15 02:32 libpng-1.6.34-5.el8.x86_64.rpm
+-rw-r--r-- 1 root root   59148 Aug 15 02:32 libtool-ltdl-2.4.6-25.el8.x86_64.rpm
+-rw-r--r-- 1 root root   35612 Aug 15 02:32 libpkgconf-1.4.2-1.el8.x86_64.rpm
+-rw-r--r-- 1 root root  402688 Aug 15 02:32 freetype-2.9.1-4.el8.x86_64.rpm
+-rw-r--r-- 1 root root  281224 Aug 15 02:32 fontconfig-2.13.1-3.el8.x86_64.rpm
+-rw-r--r-- 1 root root  208380 Aug 15 02:32 libgomp-8.3.1-5.el8.0.2.x86_64.rpm
+-rw-r--r-- 1 root root   16260 Aug 15 02:32 fontpackages-filesystem-1.44-22.el8.noarch.rpm
+-rw-r--r-- 1 root root  202460 Aug 15 02:32 xorg-x11-server-utils-7.7-27.el8.x86_64.rpm
+-rw-r--r-- 1 root root  286056 Aug 15 02:32 urw-base35-z003-fonts-20170801-10.el8.noarch.rpm
+-rw-r--r-- 1 root root 1005800 Aug 15 02:32 urw-base35-p052-fonts-20170801-10.el8.noarch.rpm
+-rw-r--r-- 1 root root  105596 Aug 15 02:32 xorg-x11-font-utils-7.5-40.el8.x86_64.rpm
+-rw-r--r-- 1 root root 1352604 Aug 15 02:32 urw-base35-nimbus-sans-fonts-20170801-10.el8.noarch.rpm
+-rw-r--r-- 1 root root   45096 Aug 15 02:32 urw-base35-standard-symbols-ps-fonts-20170801-10.el8.noarch.rpm
+-rw-r--r-- 1 root root  820084 Aug 15 02:32 urw-base35-nimbus-mono-ps-fonts-20170801-10.el8.noarch.rpm
+-rw-r--r-- 1 root root  885500 Aug 15 02:32 urw-base35-nimbus-roman-fonts-20170801-10.el8.noarch.rpm
+-rw-r--r-- 1 root root  669956 Aug 15 02:31 urw-base35-gothic-fonts-20170801-10.el8.noarch.rpm
+-rw-r--r-- 1 root root  905012 Aug 15 02:31 urw-base35-c059-fonts-20170801-10.el8.noarch.rpm
+-rw-r--r-- 1 root root   23760 Aug 15 02:31 urw-base35-fonts-common-20170801-10.el8.noarch.rpm
+-rw-r--r-- 1 root root  877296 Aug 15 02:31 urw-base35-bookman-fonts-20170801-10.el8.noarch.rpm
+-rw-r--r-- 1 root root   12372 Aug 15 02:31 urw-base35-fonts-20170801-10.el8.noarch.rpm
+-rw-r--r-- 1 root root   81084 Aug 15 02:31 urw-base35-d050000l-fonts-20170801-10.el8.noarch.rpm
+-rw-r--r-- 1 root root  234780 Aug 15 02:31 libxcb-1.13.1-1.el8.x86_64.rpm
+-rw-r--r-- 1 root root   32212 Aug 15 02:31 mcpp-2.7.2-20.el8.x86_64.rpm
+-rw-r--r-- 1 root root  279980 Aug 15 02:31 libwebp-1.0.0-1.el8.x86_64.rpm
+-rw-r--r-- 1 root root   78356 Aug 15 02:31 libwmf-lite-0.2.9-8.el8_0.x86_64.rpm
+-rw-r--r-- 1 root root  192316 Aug 15 02:31 libtiff-4.0.9-17.el8.x86_64.rpm
+-rw-r--r-- 1 root root  159432 Aug 15 02:31 libjpeg-turbo-1.5.3-10.el8.x86_64.rpm
+-rw-r--r-- 1 root root   82900 Aug 15 02:31 libmcpp-2.7.2-20.el8.x86_64.rpm
+-rw-r--r-- 1 root root   37596 Aug 15 02:31 libfontenc-1.1.3-8.el8.x86_64.rpm
+-rw-r--r-- 1 root root  190072 Aug 15 02:31 libXt-1.1.5-12.el8.x86_64.rpm
+-rw-r--r-- 1 root root   19592 Aug 15 02:31 libXxf86vm-1.1.4-9.el8.x86_64.rpm
+-rw-r--r-- 1 root root   23576 Aug 15 02:31 libXxf86misc-1.0.4-1.el8.x86_64.rpm
+-rw-r--r-- 1 root root   75920 Aug 15 02:31 libXmu-1.1.2-12.el8.x86_64.rpm
+-rw-r--r-- 1 root root   34152 Aug 15 02:31 libXrandr-1.5.1-7.el8.x86_64.rpm
+-rw-r--r-- 1 root root   33548 Aug 15 02:31 libXrender-0.9.10-7.el8.x86_64.rpm
+-rw-r--r-- 1 root root   15912 Aug 15 02:31 libXinerama-1.1.4-1.el8.x86_64.rpm
+-rw-r--r-- 1 root root  625900 Aug 15 02:31 libX11-1.6.8-3.el8.x86_64.rpm
+-rw-r--r-- 1 root root   49916 Aug 15 02:31 libXi-1.7.9-7.el8.x86_64.rpm
+-rw-r--r-- 1 root root   25516 Aug 15 02:31 libXfixes-5.0.3-7.el8.x86_64.rpm
+-rw-r--r-- 1 root root   46156 Aug 15 02:31 libXext-1.3.3-9.el8.x86_64.rpm
+-rw-r--r-- 1 root root   36708 Aug 15 02:31 libXcursor-1.1.15-3.el8.x86_64.rpm
+-rw-r--r-- 1 root root  161444 Aug 15 02:31 libX11-common-1.6.8-3.el8.noarch.rpm
+-rw-r--r-- 1 root root   36428 Aug 15 02:31 libXau-1.0.8-13.el8.x86_64.rpm
+-rw-r--r-- 1 root root   75648 Aug 15 02:31 libICE-1.0.9-15.el8.x86_64.rpm
+-rw-r--r-- 1 root root   48660 Aug 15 02:31 libSM-1.2.3-1.el8.x86_64.rpm
+-rw-r--r-- 1 root root  170660 Aug 15 02:31 jasper-libs-2.0.14-4.el8.x86_64.rpm
+-rw-r--r-- 1 root root  168504 Aug 15 02:31 lcms2-2.9-2.el8.x86_64.rpm
+-rw-r--r-- 1 root root   55952 Aug 15 02:31 jbigkit-libs-2.1-14.el8.x86_64.rpm
+
+./yum/epel-release:
+total 36
+drwxr-xr-x 8 root root  4096 Aug 15 02:36 ..
+-rw-r--r-- 1 root root 23340 Aug 15 02:28 epel-release-8-8.el8.noarch.rpm
+drwxr-xr-x 2 root root  4096 Aug 15 02:28 .
+# 
